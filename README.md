@@ -22,7 +22,9 @@ needle snapshot            # one plain-text sample
 needle json                # newline-delimited JSON samples
 ```
 
-Requires macOS. The formula builds from source, so Rust is pulled in as a build
-dependency; nothing here needs `sudo`, entitlements, or a helper process.
+The formula installs a prebuilt, Developer-ID-signed and Apple-notarized
+binary from [redneedle-releases](https://github.com/IbrarYunus/redneedle-releases)
+— Apple Silicon, macOS 11 or later. redneedle is closed source. Nothing here
+needs `sudo`, entitlements, or a helper process.
 
 To update: `brew update && brew upgrade redneedle`.
