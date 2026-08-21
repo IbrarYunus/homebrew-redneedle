@@ -5,8 +5,12 @@ system monitor that remembers what happened.
 
 ```sh
 brew tap ibraryunus/redneedle
+brew trust ibraryunus/redneedle   # third-party taps must be trusted once
 brew install redneedle
 ```
+
+If `brew trust` is not a command on your Homebrew, skip that line — it is only
+required on versions that refuse to load formulae from untrusted taps.
 
 The binary is called `needle`.
 
