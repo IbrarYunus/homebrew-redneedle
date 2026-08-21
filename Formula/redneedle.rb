@@ -1,9 +1,9 @@
 class Redneedle < Formula
   desc "macOS system monitor that remembers what happened"
   homepage "https://github.com/IbrarYunus/redneedle-releases"
-  url "https://github.com/IbrarYunus/redneedle-releases/releases/download/v0.1.0/needle-0.1.0-macos-arm64.tar.gz"
-  sha256 "0845b6fb629cf46da2014fd1f518aa145296d3eecee733306b4cb9ac636fb9f6"
-  version "0.1.0"
+  url "https://github.com/IbrarYunus/redneedle-releases/releases/download/v0.1.1/needle-0.1.1-macos-arm64.tar.gz"
+  sha256 "3b762eb95bb5a14d91f5fd5a40981ea5189ab9327d7ac3fef4d5c2d72c702248"
+  version "0.1.1"
   license :cannot_represent # closed source, all rights reserved
 
   depends_on arch: :arm64
