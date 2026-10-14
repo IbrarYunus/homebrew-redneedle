@@ -3,6 +3,8 @@
 Homebrew tap for [redneedle](https://github.com/IbrarYunus/redneedle) — a macOS
 system monitor that remembers what happened.
 
+Case study and write-up: [ibraryunus.com/work/redneedle/](https://ibraryunus.com/work/redneedle/)
+
 ```sh
 brew tap ibraryunus/redneedle
 brew trust ibraryunus/redneedle   # third-party taps must be trusted once
@@ -28,3 +30,5 @@ binary from [redneedle-releases](https://github.com/IbrarYunus/redneedle-release
 needs `sudo`, entitlements, or a helper process.
 
 To update: `brew update && brew upgrade redneedle`.
+
+Made by [Ibrar Yunus](https://ibraryunus.com) — agentic AI engineer, Tokyo.
